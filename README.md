@@ -13,11 +13,14 @@ _The resources will focus mostly on learning about Python for users of Esri soft
 
 You should be able to write short simple scripts in pure Python with no connection to GIS. To learn the basics of Python, you can find a ton of resources online such as [CodeAcademy](https://www.codecademy.com/learn/python), [Learn Python the Hard Way](https://learnpythonthehardway.org/book/intro.html), [Dive into Python](http://www.diveintopython3.net/installing-python.html), and many other books from [Python.org](https://wiki.python.org/moin/IntroductoryBooks).
 
+## Resources
 If you don't want to learn Python this way and would rather like to catch up learning how Python can be used for GIS:
 * Book [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book is sufficient to learn everything you might ever need;
 * Instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/);
 * Book [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users;
 * Book [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp) (free)
+
+## Skills
 
 ### GIS specific
 At this point, you should be able:
@@ -37,6 +40,34 @@ At this point, you should be familiar with:
 - `for` and `while` loops, `if-elif-else` blocks;
 - import of external Python modules and packages (eg. `import os`);
 - functions and how they work (eg. input arguments and `return` statement);
+- reading/writing of text files using the `os` module;
+
+### Exercises
+This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the basics of Python for ArcGIS.
+- get a list field names of Date type in a file geodatabase feature class;
 
 
 
+# Intermediate
+
+## Resources
+
+
+### GIS specific
+- to automate map production using `arcpy.mapping` with data-driven pages;
+- to manage .pdf files (eg. re-ordering, merging, splitting);
+- to export map document to various file formats such as .png and .pdf;
+- update text elements content in layout of map document 
+
+### Python
+
+
+
+
+
+# Advanced
+
+## Resources
+
+### GIS specific
+### Python
