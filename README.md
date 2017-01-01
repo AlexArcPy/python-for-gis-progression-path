@@ -57,7 +57,8 @@ This section contains the examples of tasks that you might need to write at some
 - to automate map production using `arcpy.mapping` with data-driven pages;
 - to manage .pdf files (eg. re-ordering, merging, splitting);
 - to export map document to various file formats such as .png and .pdf;
-- update text elements content in layout of map document 
+- update text elements content in layout of map document;
+
 
 ### Python
 
@@ -68,6 +69,28 @@ This section contains the examples of tasks that you might need to write at some
 # Advanced
 
 ## Resources
+* Learn about how to use ArcObjects from Python:
+ - [Accessing ArcObjects from Python?](http://gis.stackexchange.com/a/110/14435)
+* Learn about other GIS packages. Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
+ - watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
+ 
+* Learn about how to build desktop GUI applications using PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets. 
+ - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt).
+* Learn about using Python for web development:
+ - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django.
+ - learn [`geodjango`] to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf).
 
 ### GIS specific
+- execute ArcObjects code from Python using `comtypes` library;
+- export the data from tables and feature classes into Excel with custom formatting using `xlsxwriter`;
+- generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab`; 
+- generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`;
+- generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool;
+
 ### Python
+- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window).
+
+### Exercises
+This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
+- hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects;
+- update label's text of a scale bar in a map layout using pure ArcObjects;
