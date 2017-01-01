@@ -51,6 +51,11 @@ This section contains the examples of tasks that you might need to write at some
 # Intermediate
 
 ## Resources
+* Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as Git for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones).
+ - Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code;
+ 
+* Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight;
+
 
 
 ### GIS specific
@@ -61,7 +66,7 @@ This section contains the examples of tasks that you might need to write at some
 
 
 ### Python
-
+- 
 
 
 
@@ -78,7 +83,9 @@ This section contains the examples of tasks that you might need to write at some
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt).
 * Learn about using Python for web development:
  - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django.
- - learn [`geodjango`] to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf).
+ - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf).
+
+Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight; 
 
 ### GIS specific
 - execute ArcObjects code from Python using `comtypes` library;
@@ -88,7 +95,8 @@ This section contains the examples of tasks that you might need to write at some
 - generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool;
 
 ### Python
-- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window).
+- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window);
+- contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality;
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
