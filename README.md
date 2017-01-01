@@ -66,7 +66,8 @@ This section contains the examples of tasks that you might need to write at some
 
 
 ### Python
-- 
+- learn Python 3 to be able to write code portable to ArcGIS Pro;
+- learn [Python style guide](https://www.python.org/dev/peps/pep-0008/);
 
 
 
