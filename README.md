@@ -83,9 +83,21 @@ This section contains the examples of tasks that you might need to write at some
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt).
 * Learn about using Python for web development:
  - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django.
- - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf).
+ - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf);
 
-Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight; 
+* Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight; 
+* Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data);
+* Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format);
+
+* Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env. 
+
+* Learn about managing and processing larger spatial datasets as performance will matter.
+ - learn profiling techniques to find out what code takes most time to execute;
+ - learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons);
+
+* Start looking for doing certain things outside of ArcGIS such using `pandas` (eg. create a new csv file from an existing one by filtering certain rows without converting the csv file into a geodatabase table);
+
+* Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() );
 
 ### GIS specific
 - execute ArcObjects code from Python using `comtypes` library;
@@ -93,12 +105,18 @@ Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses
 - generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab`; 
 - generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`;
 - generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool;
+- perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing);
 
 ### Python
 - build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window);
 - contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality;
+- create new conda environments and install various packages into specific environments;
+- refactor existing code to use dictionaries for lookups instead of multiple `if-elif`;
+
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
 - hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects;
 - update label's text of a scale bar in a map layout using pure ArcObjects;
+- generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile;
+- find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package;
