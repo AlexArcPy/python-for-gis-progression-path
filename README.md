@@ -89,12 +89,11 @@ This section contains the examples of tasks that you might need to write at some
 * Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight;
 
 #### Tutorials / web pages
-* Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool;
-* Esri blog [How to Debug Python Toolboxes in 3 Easy Steps](https://blogs.esri.com/esri/arcgis/2012/12/14/how-to-debug-python-toolboxes-in-3-easy-steps/);
-* Esri blog [Field mapping and Python scripting](https://blogs.esri.com/esri/arcgis/2012/08/30/field-mapping-and-python-scripting/);
-* Esri [ArcPy team blog](https://arcpy.wordpress.com/);
-* [Python and GIS blog](https://pythongisandstuff.wordpress.com/);
-
+* Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool
+* Esri blog [How to Debug Python Toolboxes in 3 Easy Steps](https://blogs.esri.com/esri/arcgis/2012/12/14/how-to-debug-python-toolboxes-in-3-easy-steps/)
+* Esri blog [Field mapping and Python scripting](https://blogs.esri.com/esri/arcgis/2012/08/30/field-mapping-and-python-scripting/)
+* Esri [ArcPy team blog](https://arcpy.wordpress.com/)
+* [Python and GIS blog](https://pythongisandstuff.wordpress.com/)
 * convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
 * sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
 
@@ -162,9 +161,7 @@ At this point, you should be familiar with:
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt)
 
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
-
 * [Python and GIS blog](https://pymorton.wordpress.com/)
-
 * Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt);
 
 ### Python
@@ -197,28 +194,28 @@ At this point, you should be familiar with:
 ## Skills
 
 ### GIS specific
-- execute ArcObjects code from Python using `comtypes` library;
-- export the data from tables and feature classes into Excel with custom formatting using `xlsxwriter`;
-- generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab`; 
-- generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`;
-- generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool;
-- perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing);
-- plot geodata with `Matplotlib` (both vector and raster);
-- use `numpy` and `pandas` for manipulating spatial dataset attribute table;
-- use pure Python and `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API;
-- call FME workbenches from Python;
-- access readers and writers in FME with `fmeobjects`;
+- execute ArcObjects code from Python using `comtypes` library
+- export the data from tables and feature classes into Excel with custom formatting using `xlsxwriter`
+- generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab` 
+- generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`
+- generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool
+- perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing)
+- plot geodata with `Matplotlib` (both vector and raster)
+- use `numpy` and `pandas` for manipulating spatial dataset attribute table
+- use pure Python and `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API
+- call FME workbenches from Python
+- access readers and writers in FME with `fmeobjects`
 
 ### Python
-- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window);
-- contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality;
-- create new conda environments and install various packages into specific environments;
-- refactor existing code to use dictionaries for lookups instead of multiple `if-elif`;
+- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window)
+- contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality
+- create new conda environments and install various packages into specific environments
+- refactor existing code to use dictionaries for lookups instead of multiple `if-elif`
 - OOP basics and creating own classes;
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
-- hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects;
-- update label's text of a scale bar in a map layout using pure ArcObjects;
-- generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile;
-- find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package;
+- hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects
+- update label's text of a scale bar in a map layout using pure ArcObjects
+- generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile
+- find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package
