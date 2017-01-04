@@ -11,17 +11,16 @@ _The resources will focus mostly on learning about Python for users of Esri soft
 
 # Beginner
 
-You should be able to write short simple scripts in pure Python with no connection to GIS. To learn the basics of Python, you can find a ton of resources online such as [CodeAcademy](https://www.codecademy.com/learn/python), [Learn Python the Hard Way](https://learnpythonthehardway.org/book/intro.html), [Dive into Python](http://www.diveintopython3.net/installing-python.html), and many other books from [Python.org](https://wiki.python.org/moin/IntroductoryBooks).
+You should be able to write short simple scripts in pure Python with no connection to GIS. To learn the basics of Python, you can find a ton of resources online such as [CodeAcademy](https://www.codecademy.com/learn/python), [Learn Python the Hard Way](https://learnpythonthehardway.org/book/intro.html), [Dive into Python](http://www.diveintopython3.net/installing-python.html), [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp), and many other books from [Python.org](https://wiki.python.org/moin/IntroductoryBooks).
 
 ## Resources
 If you don't want to learn Python this way and would rather like to catch up learning how Python can be used for GIS:
 * Book [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book is sufficient to learn everything you might ever need;
-* Instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/);
 * Book [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users;
-* Book [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp) (free)
+* Esri instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/);
+
 
 ## Skills
-
 ### GIS specific
 At this point, you should be able:
 - to write some simple scripts either using arcpy site-package or `ogr/gdal` libraries;
@@ -32,6 +31,7 @@ At this point, you should be able:
 - to create and operate `arcpy.Geometry()` objects (accessing both their properties and methods);
 - to create an ArcGIS toolbox with a script tool executing a Python source file;
 - to report information about map layers (eg. data sources, broken paths, definition queries) within a map document (.mxd) using `arcpy.mapping` module.
+- create simple custom Python script tools;
 
 ### Python
 At this point, you should be familiar with:
@@ -60,11 +60,17 @@ This section contains the examples of tasks that you might need to write at some
 ## Skills
 ### GIS specific
 - to automate map production using `arcpy.mapping` with data-driven pages;
-- to manage .pdf files (eg. re-ordering, merging, splitting);
-- to export map document to various file formats such as .png and .pdf;
-- update text elements content in layout of map document;
+- to manage .pdf files (eg. re-ordering, merging, splitting) using `arcpy`;
+- to export ArcMap map document to various file formats such as .png and .pdf;
+- update text elements content in layout of ArcMap map document;
 - executing DBMS spatial functions from Python and using `arcpy.ArcSDESQLExecute()`;
-
+- to use `FieldInfo`, `FieldMap`, and `FieldMappings` from `arcpy` to manage data schema
+- customize custom ArcGIS script tool behavior using `ToolValidator` class;
+- start using Python toolboxes and Python add-ins in ArcGIS when it makes sense;
+- debug `arcpy`-driven code using geoprocessing messages
+- writing unit tests for GIS workflows;
+- handling JSON in Python and `arcpy`;
+- generate simple Excel files from geodatasets with Python and `xlsxwriter` package;
 
 ### Python
 At this point, you should be familiar with:
@@ -79,9 +85,14 @@ At this point, you should be familiar with:
 - convenience functions such as those in [arcapi](https://github.com/NERC-CEH/arcapi);
 - accessing databases using Python;
 - working with disk-based database SQLite from Python;
-
-
-
+- using non-Latin characters in the source file and handling Unicode;
+- Python exceptions and `try/except` block;
+- Python `traceback` module;
+- tuple unpacking with function calls;
+- send emails with Python;
+- access ftp sites with Python;
+- run Python files with the cmd;
+- zip folders and files with Python;
 
 
 # Advanced
@@ -121,6 +132,12 @@ At this point, you should be familiar with:
 - generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`;
 - generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool;
 - perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing);
+- plot geodata with `Matplotlib` (both vector and raster);
+- use `numpy` and `pandas` for manipulating spatial dataset attribute table;
+- use pure Python and `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API;
+- call FME workbenches from Python;
+- access readers and writers in FME with `fmeobjects`;
+
 
 ### Python
 - build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window);
