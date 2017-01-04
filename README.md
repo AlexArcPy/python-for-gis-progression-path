@@ -95,51 +95,62 @@ This section contains the examples of tasks that you might need to write at some
 * Esri [ArcPy team blog](https://arcpy.wordpress.com/);
 * [Python and GIS blog](https://pythongisandstuff.wordpress.com/);
 
+* convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
+* sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
+
+
 ## Skills
+
 ### GIS specific
-- to automate map production using `arcpy.mapping` with data-driven pages;
-- to manage .pdf files (eg. re-ordering, merging, splitting) using `arcpy`;
-- to export ArcMap map document to various file formats such as .png and .pdf;
-- update text elements content in layout of ArcMap map document;
-- executing DBMS spatial functions from Python and using `arcpy.ArcSDESQLExecute()`;
-- to use `FieldInfo`, `FieldMap`, and `FieldMappings` from `arcpy` to manage data schema
-- customize custom ArcGIS script tool behavior using `ToolValidator` class;
-- start using Python toolboxes and Python add-ins in ArcGIS when it makes sense;
-- debug `arcpy`-driven code using geoprocessing messages
-- writing unit tests for GIS workflows;
-- handling JSON in Python and `arcpy`;
-- generate simple Excel files from geodatasets with Python and `xlsxwriter` package;
+At this point, you should be able to:
+- automate map production using `arcpy.mapping` with data-driven pages
+- manage .pdf files (eg. re-ordering, merging, splitting) using `arcpy`
+- export ArcMap map documents to various file formats such as .png and .pdf
+- update text elements content in layout of ArcMap map document
+- executing DBMS spatial functions from Python and using `arcpy.ArcSDESQLExecute()`
+- use `FieldInfo`, `FieldMap`, and `FieldMappings` classes from `arcpy` to manage data schema
+- customize custom ArcGIS script tool behavior using `ToolValidator` class
+- start using Python toolboxes and Python add-ins in ArcGIS when it makes sense
+- debug `arcpy`-driven code with the help of geoprocessing messages
+- writing smaller unit tests for GIS workflows
+- handling `JSON` in Python and `arcpy`
+- generate simple Excel files from datasets with Python and `xlsxwriter` package
 
 ### Python
 At this point, you should be familiar with:
-- Python 3 to able to write code that will be ported later to ArcGIS Pro;
-- [Python style guide](https://www.python.org/dev/peps/pep-0008/);
+- Python 3 to be able to write code that will be ported later to ArcGIS Pro
+- Python PEP-8 style guide
 - `collections` module data structures such as `defaultdict`, `namedtuple`, `Counter`
-- list and dictionary comprehensions;
-- set comprehensions and set theory operations;
-- enumerating sequences using built-in `enumerate` function';
-- writing own functions and handling the arguments;
-- lambda functions;
-- convenience functions such as those in [arcapi](https://github.com/NERC-CEH/arcapi);
-- accessing databases using Python;
-- working with disk-based database SQLite from Python;
-- using non-Latin characters in the source file and handling Unicode;
-- Python exceptions and `try/except` block;
-- Python `traceback` module;
-- tuple unpacking with function calls;
-- send emails with Python;
-- access ftp sites with Python;
-- run Python files with the cmd;
-- zip folders and files with Python;
-
+- list and dictionary comprehensions
+- set comprehensions and set theory operations
+- enumerating sequences using built-in `enumerate` function'
+- writing own functions and handling the arguments
+- lambda functions
+- convenience functions
+- accessing databases using Python
+- working with disk-based database SQLite from Python
+- using non-Latin characters in the source file and handling Unicode
+- Python exceptions and `try/except` block
+- Python `traceback` module
+- tuple unpacking with function calls
+- sending emails with Python
+- accessing ftp sites with Python
+- running Python files with the cmd and task scheduler
+- zipping folders and files with Python and reading archive files
 
 # Advanced
 
 ## Resources
 
 ### GIS specific
-* Learn about how to use ArcObjects from Python:
- - [Accessing ArcObjects from Python?](http://gis.stackexchange.com/a/110/14435)
+* Learn how to use ArcObjects from Python:
+ - GIS.SE [Accessing ArcObjects from Python?](http://gis.stackexchange.com/a/110/14435)
+ - GIS.SE [Guidelines for using ArcObjects from Python](http://gis.stackexchange.com/questions/129456/guidelines-for-using-arcobjects-from-python)
+ - Esri video [Extending Python Using C++ and ArcObjects](http://www.esri.com/videos/watch?videoid=1242&isLegacy=true&title=extending-python-using-c_plus__plus_-and-arcobjects)
+- Esri [recorded live-training seminar on ArcObjects](https://www.youtube.com/watch?v=AtwD02wyP3A)
+- Esri Help page [Learning ArcObjects] (http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Learning_ArcObjects/0001000000p1000000/) will help you determine which ArcObjects will provide the functionality required by your customization
+- Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
+- Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
 
 * Learn about other GIS packages. Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
  - watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
