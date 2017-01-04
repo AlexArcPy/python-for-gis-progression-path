@@ -8,6 +8,7 @@ This is an attempt to provide a structured collection of resources that could he
 The resources will include books, web pages and blog posts, online courses, videos, Q/A from GIS.SE, links to code snippets, and some bedtime readings. 
 
 _The resources will focus mostly on learning about Python for users of Esri software though there will be some links that will apply even for open-source GIS professionals._
+
 ---
 
 # Beginner
@@ -74,6 +75,7 @@ This section contains the examples of tasks that you might need to write at some
 - re-project all rasters in a folder
 - update data sources for layers in a map document and save a new map document
 - write to a .txt or a .csv file information about your GIS assets
+
 ---
 
 # Intermediate
@@ -137,6 +139,7 @@ At this point, you should be familiar with:
 - accessing ftp sites with Python
 - running Python files with the cmd and task scheduler
 - zipping folders and files with Python and reading archive files
+
 ---
 
 # Advanced
