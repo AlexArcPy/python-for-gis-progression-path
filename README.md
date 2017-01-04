@@ -151,8 +151,9 @@ At this point, you should be familiar with:
  - Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
  - Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
 
-* Learn about other GIS packages. Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
- - watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
+* Learn about other GIS packages. 
+ - Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
+ - Watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
 
 * Learn about how to build desktop GUI applications using Tkinter, WxPython, PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets:
  - [Python Add-Ins and Tkinter](http://anothergisblog.blogspot.se/2013/07/python-add-ins-and-tkinter.html)
@@ -175,19 +176,17 @@ At this point, you should be familiar with:
 * Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format);
 
 * Learn about numerical computing and data science:
-- Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env;
-- Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/);
+- Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
+- Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
 
 * Learn about managing and processing larger spatial datasets as performance will matter.
- - learn profiling techniques to find out what code takes most time to execute;
- - learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons);
- - learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)[(https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/); 
- - Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/);
+ - learn profiling techniques to find out what code takes most time to execute
+ - learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
+ - learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
+ - Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
 
-* Start looking for doing certain things outside of ArcGIS such using `pandas` (eg. create a new csv file from an existing one by filtering certain rows without converting the csv file into a geodatabase table);
-
-* Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() );
-
+* Start looking for doing certain things outside of ArcGIS such using `pandas`
+* Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() )
 * Learn ArcGIS REST API
  - ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340);
 
@@ -211,11 +210,12 @@ At this point, you should be familiar with:
 - contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality
 - create new conda environments and install various packages into specific environments
 - refactor existing code to use dictionaries for lookups instead of multiple `if-elif`
-- OOP basics and creating own classes;
+- OOP basics and creating own classes
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
 - hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects
 - update label's text of a scale bar in a map layout using pure ArcObjects
-- generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile
+- generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile using `networkx`
 - find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package
+- create a new csv file from an existing one by filtering certain rows using `pandas`
