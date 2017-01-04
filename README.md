@@ -142,6 +142,7 @@ At this point, you should be familiar with:
 - accessing ftp sites with Python
 - running Python files with the cmd and task scheduler
 - zipping folders and files with Python and reading archive files
+- sending SMS using Python and `Twilio`
 
 ---
 
