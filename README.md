@@ -98,9 +98,10 @@ This section contains the examples of tasks that you might need to write at some
 * Esri blog [Field mapping and Python scripting](https://blogs.esri.com/esri/arcgis/2012/08/30/field-mapping-and-python-scripting/)
 * Esri [ArcPy team blog](https://arcpy.wordpress.com/)
 * [Python and GIS blog](https://pythongisandstuff.wordpress.com/)
-* convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
-* sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
-
+* Convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
+* Sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
+* Learn how to use [pip](http://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows) for managing Python packages
+* Learn [R-ArcGIS bridge](https://github.com/R-ArcGIS/r-bridge-install) to combine Python code and R code
 
 ## Skills
 
@@ -121,6 +122,7 @@ At this point, you should be able to:
 
 ### Python
 At this point, you should be familiar with:
+- installing Python packages using pip
 - Python 3 to be able to write code that will be ported later to ArcGIS Pro
 - Python PEP-8 style guide
 - `collections` module data structures such as `defaultdict`, `namedtuple`, `Counter`
@@ -173,6 +175,10 @@ At this point, you should be familiar with:
 
 ### Python
 
+* Learn [IPython](https://ipython.org/) and the concept of reproducible research:
+ - Learn how to use [Jupyter notebook](http://jupyter.org/)
+ - Learn how to combine [Python and R code](https://www.continuum.io/blog/developer/jupyter-and-conda-r) in the same Jupyter notebook
+
 * Learn about using Python for web development:
  - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django
  - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
@@ -199,6 +205,7 @@ At this point, you should be familiar with:
 * Learn ArcGIS REST API
  - Learn [`requests`](http://docs.python-requests.org/en/master/) module
  - ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
+ - Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organization
 
 ## Skills
 
