@@ -11,23 +11,31 @@ _The resources will focus mostly on learning about Python for users of Esri soft
 
 # Beginner
 
-You should be able to write short simple scripts in pure Python with no connection to GIS. To learn the basics of Python, you can find a ton of resources online such as [CodeAcademy](https://www.codecademy.com/learn/python), [Learn Python the Hard Way](https://learnpythonthehardway.org/book/intro.html), [Dive into Python](http://www.diveintopython3.net/installing-python.html), [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp), and many other books from [Python.org](https://wiki.python.org/moin/IntroductoryBooks).
+You should be able to write short simple scripts in pure Python with no connection to GIS. To learn the basics of Python, you can find a ton of resources online such as [CodeAcademy](https://www.codecademy.com/learn/python), [Learn Python the Hard Way](https://learnpythonthehardway.org/book/intro.html), [Dive into Python](http://www.diveintopython3.net/installing-python.html), [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp), and many other books from [Python.org](https://wiki.python.org/moin/IntroductoryBooks) and this [Free programming books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python) GitHub repo.
 
 ## Resources
 If you don't want to learn Python this way and would rather like to catch up learning how Python can be used for GIS:
-* Book [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book is sufficient to learn everything you might ever need;
-* Book [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users;
+#### Books
+* [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book is sufficient to learn everything you might ever need;
+* [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users;
 
-Courses:
+#### Courses:
 * Esri instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/);
 * Esri free web course [Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/);
 * Esri web course [Basics of Python (for ArcGIS 10)](https://www.esri.com/training/catalog/57630430851d31e02a43ee14/basics-of-python-(for-arcgis-10)/);
 
+#### Videos:
+* Esri video [Working with Feature Data Using ArcPy](http://www.esri.com/videos/watch?videoid=3448&isLegacy=true&title=working-with-feature-data-using-arcpy);
+* Esri video [ArcMap and Python: Closing the VBA Gap](http://www.esri.com/videos/watch?videoid=1229&isLegacy=true&title=arcmap-and-python-closing-the-vba-gap)
 
-Collections of resources:
-* [Seven easy ways to start learning Python and ArcPy](https://blogs.esri.com/esri/supportcenter/2014/03/26/8-easy-ways-learning-python-arcpy/)
+#### Tutorials / web pages:
+* [arcpy tutorials](https://boxshapedworld.wordpress.com/tutorials/)
+* Esri Blog post [Scheduling a Python script or model to run at a prescribed time](https://blogs.esri.com/esri/arcgis/2013/07/30/scheduling-a-scrip/)
+
+#### Collections of resources:
+* Esri blog [Seven easy ways to start learning Python and ArcPy](https://blogs.esri.com/esri/supportcenter/2014/03/26/8-easy-ways-learning-python-arcpy/)
 * GIS.SE [What are some resources for learning ArcPy?](http://gis.stackexchange.com/a/53826/14435)
-
+* [Python for GIS tutorials](http://courses.washington.edu/geog465/Programming_Resources.html)
 
 ## Skills
 
@@ -66,12 +74,15 @@ This section contains the examples of tasks that you might need to write at some
 * Learn about [various Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments) and find out which one you like most. Many start with [PyScripter](https://sourceforge.net/projects/pyscripter/)(free) and then move to something else:
  - SO question [What IDE to use for Python?](http://stackoverflow.com/questions/81584/what-ide-to-use-for-python);
  - Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio;
+ - Check Esri blog post [Choosing the right Python Integrated Development Environment](https://blogs.esri.com/esri/arcgis/2013/06/24/choosing-the-right-python-integrated-development-environment/)
  
 * Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones).
  - Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code;
  
 * Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight;
 
+#### Tutorials / web pages
+* Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/)
 
 ## Skills
 ### GIS specific
@@ -128,6 +139,8 @@ At this point, you should be familiar with:
  - [GitHub repo](https://github.com/ldanzinger/PyOtherSideForArcGIS) with samples for ArcGIS, Qt and Python integration; 
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt)
 
+* Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
+
 ### Python
 
 * Learn about using Python for web development:
@@ -138,7 +151,10 @@ At this point, you should be familiar with:
 * Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data);
 * Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format);
 
-* Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env. 
+* Learn about numerical computing and data science:
+- Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env;
+- Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/);
+
 
 * Learn about managing and processing larger spatial datasets as performance will matter.
  - learn profiling techniques to find out what code takes most time to execute;
@@ -147,8 +163,6 @@ At this point, you should be familiar with:
 * Start looking for doing certain things outside of ArcGIS such using `pandas` (eg. create a new csv file from an existing one by filtering certain rows without converting the csv file into a geodatabase table);
 
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() );
-
-* Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
 
 ## Skills
 
