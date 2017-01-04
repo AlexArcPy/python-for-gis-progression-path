@@ -146,23 +146,23 @@ At this point, you should be familiar with:
  - GIS.SE [Accessing ArcObjects from Python?](http://gis.stackexchange.com/a/110/14435)
  - GIS.SE [Guidelines for using ArcObjects from Python](http://gis.stackexchange.com/questions/129456/guidelines-for-using-arcobjects-from-python)
  - Esri video [Extending Python Using C++ and ArcObjects](http://www.esri.com/videos/watch?videoid=1242&isLegacy=true&title=extending-python-using-c_plus__plus_-and-arcobjects)
-- Esri [recorded live-training seminar on ArcObjects](https://www.youtube.com/watch?v=AtwD02wyP3A)
-- Esri Help page [Learning ArcObjects] (http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Learning_ArcObjects/0001000000p1000000/) will help you determine which ArcObjects will provide the functionality required by your customization
-- Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
-- Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
+ - Esri [recorded live-training seminar on ArcObjects](https://www.youtube.com/watch?v=AtwD02wyP3A)
+ - Esri Help page [Learning ArcObjects] (http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Learning_ArcObjects/0001000000p1000000/) will help you determine which ArcObjects will provide the functionality required by your customization
+ - Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
+ - Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
 
 * Learn about other GIS packages. Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
  - watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
 
 * Learn about how to build desktop GUI applications using Tkinter, WxPython, PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets:
  - [Python Add-Ins and Tkinter](http://anothergisblog.blogspot.se/2013/07/python-add-ins-and-tkinter.html)
- - Esri blog post [Using Python and QML to build native apps](https://blogs.esri.com/esri/arcgis/2015/11/16/using-python-and-qml-to-build-native-apps/);
+ - Esri blog post [Using Python and QML to build native apps](https://blogs.esri.com/esri/arcgis/2015/11/16/using-python-and-qml-to-build-native-apps/)
  - [GitHub repo](https://github.com/ldanzinger/PyOtherSideForArcGIS) with samples for ArcGIS, Qt and Python integration; 
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt)
 
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
 * [Python and GIS blog](https://pymorton.wordpress.com/)
-* Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt);
+* Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt)
 
 ### Python
 
