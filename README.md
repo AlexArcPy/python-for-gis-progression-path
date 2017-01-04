@@ -82,14 +82,14 @@ This section contains the examples of tasks that you might need to write at some
 
 ## Resources
 * Learn about [various Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments) and find out which one you like most. Many start with [PyScripter](https://sourceforge.net/projects/pyscripter/)(free) and then move to something else:
- - SO question [What IDE to use for Python?](http://stackoverflow.com/questions/81584/what-ide-to-use-for-python);
- - Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio;
+ - SO question [What IDE to use for Python?](http://stackoverflow.com/questions/81584/what-ide-to-use-for-python)
+ - Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio
  - Check Esri blog post [Choosing the right Python Integrated Development Environment](https://blogs.esri.com/esri/arcgis/2013/06/24/choosing-the-right-python-integrated-development-environment/)
  
 * Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones).
- - Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code;
+ - Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code
  
-* Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight;
+* Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight
 
 #### Tutorials / web pages
 * Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool
@@ -163,7 +163,7 @@ At this point, you should be familiar with:
 * Learn about how to build desktop GUI applications using Tkinter, WxPython, PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets:
  - [Python Add-Ins and Tkinter](http://anothergisblog.blogspot.se/2013/07/python-add-ins-and-tkinter.html)
  - Esri blog post [Using Python and QML to build native apps](https://blogs.esri.com/esri/arcgis/2015/11/16/using-python-and-qml-to-build-native-apps/)
- - [GitHub repo](https://github.com/ldanzinger/PyOtherSideForArcGIS) with samples for ArcGIS, Qt and Python integration; 
+ - [GitHub repo](https://github.com/ldanzinger/PyOtherSideForArcGIS) with samples for ArcGIS, Qt and Python integration 
  - Watch Esri video [Developing Custom Tools with PyQt](http://www.esri.com/videos/watch?videoid=4549&isLegacy=true&title=developing-custom-tools-with-pyqt)
 
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
@@ -173,12 +173,12 @@ At this point, you should be familiar with:
 ### Python
 
 * Learn about using Python for web development:
- - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django;
- - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf);
+ - learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django
+ - learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
 
-* Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight; 
-* Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data);
-* Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format);
+* Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight 
+* Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data)
+* Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format)
 
 * Learn about numerical computing and data science:
 - Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
@@ -193,11 +193,13 @@ At this point, you should be familiar with:
 * Start looking for doing certain things outside of ArcGIS such using `pandas`
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() )
 * Learn ArcGIS REST API
- - ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340);
+ - Learn [`requests`](http://docs.python-requests.org/en/master/) module
+ - ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
 
 ## Skills
 
 ### GIS specific
+At this point, you should be able to:
 - execute ArcObjects code from Python using `comtypes` library
 - export the data from tables and feature classes into Excel with custom formatting using `xlsxwriter`
 - generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab` 
@@ -206,15 +208,16 @@ At this point, you should be familiar with:
 - perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing)
 - plot geodata with `Matplotlib` (both vector and raster)
 - use `numpy` and `pandas` for manipulating spatial dataset attribute table
-- use pure Python and `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API
+- use `requests` and/or `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API
 - call FME workbenches from Python
 - access readers and writers in FME with `fmeobjects`
 
 ### Python
-- build desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window)
-- contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality
-- create new conda environments and install various packages into specific environments
-- refactor existing code to use dictionaries for lookups instead of multiple `if-elif`
+At this point, you should be familiar with:
+- building desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window)
+- contributing to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality
+- creating new conda environments and installing various packages into specific environments
+- refactoring wrapping the code into functions, modules, and packages
 - OOP basics and creating own classes
 
 ### Exercises
