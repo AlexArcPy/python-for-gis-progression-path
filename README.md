@@ -57,7 +57,7 @@ This section contains the examples of tasks that you might need to write at some
 * Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight;
 
 
-
+## Skills
 ### GIS specific
 - to automate map production using `arcpy.mapping` with data-driven pages;
 - to manage .pdf files (eg. re-ordering, merging, splitting);
@@ -99,6 +99,8 @@ This section contains the examples of tasks that you might need to write at some
 * Start looking for doing certain things outside of ArcGIS such using `pandas` (eg. create a new csv file from an existing one by filtering certain rows without converting the csv file into a geodatabase table);
 
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() );
+
+## Skills
 
 ### GIS specific
 - execute ArcObjects code from Python using `comtypes` library;
