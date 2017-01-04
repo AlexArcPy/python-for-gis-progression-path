@@ -8,6 +8,7 @@ This is an attempt to provide a structured collection of resources that could he
 The resources will include books, web pages and blog posts, online courses, videos, Q/A from GIS.SE, links to code snippets, and some bedtime readings. 
 
 _The resources will focus mostly on learning about Python for users of Esri software though there will be some links that will apply even for open-source GIS professionals._
+---
 
 # Beginner
 
@@ -48,32 +49,32 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 
 ### GIS specific
 At this point, you should be able to:
-- write some simple scripts either using `arcpy` site-package or `ogr/gdal` libraries;
-- report information about your GIS assets (data format, geometry type, data schema, spatial reference);
-- write code for calling ArcGIS GP tools from Python code and inspect the `Result` object returned;
-- perform an operation on multiple datasets in batch mode using `arcpy` listing functions;
-- read and update attributes & geometry of features using `arcpy.da` cursors;
-- create and operate `arcpy.Geometry()` objects (accessing both their properties and methods);
-- create an ArcGIS toolbox with a simple script tool executing a Python source file;
-- report information about map layers (eg. data sources, broken paths, definition queries) within an ArcMap map document (.mxd) using `arcpy.mapping` module.
+- write some simple scripts either using `arcpy` site-package or `ogr/gdal` libraries
+- report information about your GIS assets (data format, geometry type, data schema, spatial reference)
+- write code for calling ArcGIS GP tools from Python code and inspect the `Result` object returned
+- perform an operation on multiple datasets in batch mode using `arcpy` listing functions
+- read and update attributes & geometry of features using `arcpy.da` cursors
+- create and operate `arcpy.Geometry()` objects (accessing both their properties and methods)
+- create an ArcGIS toolbox with a simple script tool executing a Python source file
+- report information about map layers (eg. data sources, broken paths, definition queries) within an ArcMap map document (.mxd) using `arcpy.mapping` module
 
 ### Python
 At this point, you should be familiar with:
-- variables of different data types (numeric, string, date etc.);
-- data structures of different types (list, tuple, dictionary, set);
-- `for` and `while` loops, `if-elif-else` blocks;
-- import of external Python modules and packages (eg. `import os`);
-- functions and how they work (eg. input arguments and `return` statement);
-- reading/writing of text files using the `os` module;
+- variables of different data types (numeric, string, date etc.)
+- data structures of different types (list, tuple, dictionary, set)
+- `for` and `while` loops, `if-elif-else` blocks
+- import of external Python modules and packages (eg. `import os`)
+- functions and how they work (eg. input arguments and `return` statement)
+- reading/writing of text files using the `os` module
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the basics of Python for ArcGIS.
-- get a list field names of Date type in a file geodatabase feature class;
-- copy multiple shapefiles into a file geodatabase at once;
-- re-project all rasters in a folder;
-- update data sources for layers in a map document and save a new map document;
-- write to a .txt or a .csv file information about your GIS assets;
-
+- get a list field names of Date type in a file geodatabase feature class
+- copy multiple shapefiles into a file geodatabase at once
+- re-project all rasters in a folder
+- update data sources for layers in a map document and save a new map document
+- write to a .txt or a .csv file information about your GIS assets
+---
 
 # Intermediate
 
@@ -136,6 +137,7 @@ At this point, you should be familiar with:
 - accessing ftp sites with Python
 - running Python files with the cmd and task scheduler
 - zipping folders and files with Python and reading archive files
+---
 
 # Advanced
 
