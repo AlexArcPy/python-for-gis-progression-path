@@ -34,7 +34,7 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 * Esri video [Working with Feature Data Using ArcPy](http://www.esri.com/videos/watch?videoid=3448&isLegacy=true&title=working-with-feature-data-using-arcpy)
 * Esri video [ArcMap and Python: Closing the VBA Gap](http://www.esri.com/videos/watch?videoid=1229&isLegacy=true&title=arcmap-and-python-closing-the-vba-gap)
 * Esri video [Python: Getting Started 2014](http://www.esri.com/videos/watch?videoid=3879&channelid=LegacyVideo&isLegacy=true&title=python:-getting-started)
-* [Python: Developing Geoprocessing Tools](http://www.esri.com/videos/watch?videoid=4304&channelid=LegacyVideo&isLegacy=true&title=python:-developing-geoprocessing-tools)
+* Esri video [Python: Developing Geoprocessing Tools](http://www.esri.com/videos/watch?videoid=4304&channelid=LegacyVideo&isLegacy=true&title=python:-developing-geoprocessing-tools)
 * Esri video [Python: Getting Started 2013](http://www.esri.com/videos/watch?videoid=2622&channelid=LegacyVideo&isLegacy=true&title=python---getting-started)
 
 #### Tutorials / web pages:
@@ -81,7 +81,7 @@ This section contains the examples of tasks that you might need to write at some
 # Intermediate
 
 ## Resources
-* Learn about [various Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments) and find out which one you like most. Many start with [PyScripter](https://sourceforge.net/projects/pyscripter/)(free) and then move to something else:
+* Learn about [various Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments) and find out which one you like most. Many start with [PyScripter](https://sourceforge.net/projects/pyscripter/) (free) and then move to something else:
  - SO question [What IDE to use for Python?](http://stackoverflow.com/questions/81584/what-ide-to-use-for-python)
  - Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio
  - Check Esri blog post [Choosing the right Python Integrated Development Environment](https://blogs.esri.com/esri/arcgis/2013/06/24/choosing-the-right-python-integrated-development-environment/)
@@ -90,6 +90,7 @@ This section contains the examples of tasks that you might need to write at some
  - Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code
  
 * Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight
+* Watch Esri video [Python: Useful Libraries for the GIS Professional](http://www.esri.com/videos/watch?videoid=2938&isLegacy=true&title=python-useful-libraries-for-the-gis-professional)
 
 #### Tutorials / web pages
 * Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool
@@ -159,6 +160,7 @@ At this point, you should be familiar with:
 * Learn about other GIS packages. 
  - Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
  - Watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
+ - learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
 
 * Learn about how to build desktop GUI applications using Tkinter, WxPython, PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets:
  - [Python Add-Ins and Tkinter](http://anothergisblog.blogspot.se/2013/07/python-add-ins-and-tkinter.html)
@@ -183,7 +185,7 @@ At this point, you should be familiar with:
 * Learn about numerical computing and data science:
 - Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
 - Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
-
+- Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
 * Learn about managing and processing larger spatial datasets as performance will matter.
  - learn profiling techniques to find out what code takes most time to execute
  - learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
