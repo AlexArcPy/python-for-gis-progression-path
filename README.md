@@ -21,17 +21,17 @@ If you don't want to learn Python this way and would rather like to catch up lea
 
 
 ## Skills
+
 ### GIS specific
-At this point, you should be able:
-- to write some simple scripts either using arcpy site-package or `ogr/gdal` libraries;
-- to report information about your GIS assets (data format, geometry type, data schema, spatial reference);
-- to write code for calling ArcGIS GP tools from Python code and inspect the `Result` object returned;
-- to perform an operation on multiple datasets in batch mode using `arcpy` listing functions (eg. copy multiple shapefiles into a file geodatabase at once, re-project all  rasters in a folder);
-- to read and update attributes & geometry of features using `arcpy.da` cursors;
-- to create and operate `arcpy.Geometry()` objects (accessing both their properties and methods);
-- to create an ArcGIS toolbox with a script tool executing a Python source file;
-- to report information about map layers (eg. data sources, broken paths, definition queries) within a map document (.mxd) using `arcpy.mapping` module.
-- create simple custom Python script tools;
+At this point, you should be able to:
+- write some simple scripts either using `arcpy` site-package or `ogr/gdal` libraries;
+- report information about your GIS assets (data format, geometry type, data schema, spatial reference);
+- write code for calling ArcGIS GP tools from Python code and inspect the `Result` object returned;
+- perform an operation on multiple datasets in batch mode using `arcpy` listing functions;
+- read and update attributes & geometry of features using `arcpy.da` cursors;
+- create and operate `arcpy.Geometry()` objects (accessing both their properties and methods);
+- create an ArcGIS toolbox with a simple script tool executing a Python source file;
+- report information about map layers (eg. data sources, broken paths, definition queries) within an ArcMap map document (.mxd) using `arcpy.mapping` module.
 
 ### Python
 At this point, you should be familiar with:
@@ -45,7 +45,10 @@ At this point, you should be familiar with:
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the basics of Python for ArcGIS.
 - get a list field names of Date type in a file geodatabase feature class;
-
+- copy multiple shapefiles into a file geodatabase at once;
+- re-project all rasters in a folder;
+- update data sources for layers in a map document and save a new map document;
+- write to a .txt or a .csv file information about your GIS assets;
 
 
 # Intermediate
