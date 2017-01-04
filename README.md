@@ -158,10 +158,9 @@ At this point, you should be familiar with:
  - Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
 
 * Learn about other GIS packages. 
- - Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md). 
+ - Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md)) 
  - Watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
- - learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
-
+ 
 * Learn about how to build desktop GUI applications using Tkinter, WxPython, PyQt, PySide, or Kivy and then embed them into ArcGIS or just let them be aware of spatial datasets:
  - [Python Add-Ins and Tkinter](http://anothergisblog.blogspot.se/2013/07/python-add-ins-and-tkinter.html)
  - Esri blog post [Using Python and QML to build native apps](https://blogs.esri.com/esri/arcgis/2015/11/16/using-python-and-qml-to-build-native-apps/)
@@ -181,6 +180,7 @@ At this point, you should be familiar with:
 * Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight 
 * Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data)
 * Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format)
+* Learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
 
 * Learn about numerical computing and data science:
 - Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
