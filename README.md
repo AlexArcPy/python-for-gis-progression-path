@@ -183,9 +183,11 @@ At this point, you should be familiar with:
 * Learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
 
 * Learn about numerical computing and data science:
-- Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
-- Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
-- Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
+ - Install `Anaconda`(https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
+ - Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
+ - Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
+ - Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
+
 * Learn about managing and processing larger spatial datasets as performance will matter.
  - learn profiling techniques to find out what code takes most time to execute
  - learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
