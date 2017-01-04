@@ -101,6 +101,7 @@ This section contains the examples of tasks that you might need to write at some
 * Convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
 * Sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
 * Learn how to use [pip](http://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows) for managing Python packages
+* Learn [`virtualenv`](https://virtualenv.pypa.io/en/stable/) for managing Python environments
 * Learn [R-ArcGIS bridge](https://github.com/R-ArcGIS/r-bridge-install) to combine Python code and R code
 
 ## Skills
