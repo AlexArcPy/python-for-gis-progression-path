@@ -145,6 +145,8 @@ At this point, you should be familiar with:
 
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
 
+* [Python and GIS blog](https://pymorton.wordpress.com/)
+
 * Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt);
 
 ### Python
