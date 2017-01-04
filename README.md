@@ -63,11 +63,23 @@ This section contains the examples of tasks that you might need to write at some
 - to manage .pdf files (eg. re-ordering, merging, splitting);
 - to export map document to various file formats such as .png and .pdf;
 - update text elements content in layout of map document;
+- executing DBMS spatial functions from Python and using `arcpy.ArcSDESQLExecute()`;
 
 
 ### Python
-- learn Python 3 to be able to write code portable to ArcGIS Pro;
-- learn [Python style guide](https://www.python.org/dev/peps/pep-0008/);
+At this point, you should be familiar with:
+- Python 3 to able to write code that will be ported later to ArcGIS Pro;
+- [Python style guide](https://www.python.org/dev/peps/pep-0008/);
+- `collections` module data structures such as `defaultdict`, `namedtuple`, `Counter`
+- list and dictionary comprehensions;
+- set comprehensions and set theory operations;
+- enumerating sequences using built-in `enumerate` function';
+- writing own functions and handling the arguments;
+- lambda functions;
+- convenience functions such as those in [arcapi](https://github.com/NERC-CEH/arcapi);
+- accessing databases using Python;
+- working with disk-based database SQLite from Python;
+
 
 
 
@@ -115,7 +127,7 @@ This section contains the examples of tasks that you might need to write at some
 - contribute to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality;
 - create new conda environments and install various packages into specific environments;
 - refactor existing code to use dictionaries for lookups instead of multiple `if-elif`;
-
+- OOP basics and creating own classes;
 
 ### Exercises
 This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
