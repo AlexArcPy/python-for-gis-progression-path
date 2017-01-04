@@ -16,24 +16,24 @@ You should be able to write short simple scripts in pure Python with no connecti
 ## Resources
 If you don't want to learn Python this way and would rather like to catch up learning how Python can be used for GIS:
 #### Books
-* [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book is sufficient to learn everything you might ever need;
-* [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users;
+* [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book _might_ be sufficient to learn everything you might ever need
+* [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users
 
 #### Courses:
-* Esri instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/);
-* Esri free web course [Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/);
-* Esri web course [Basics of Python (for ArcGIS 10)](https://www.esri.com/training/catalog/57630430851d31e02a43ee14/basics-of-python-(for-arcgis-10)/);
-* Penn State free web course [GIS Programming and Automation](https://www.e-education.psu.edu/geog485/node/104);
+* Esri instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/)
+* Esri free web course [Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/)
+* Esri web course [Basics of Python (for ArcGIS 10)](https://www.esri.com/training/catalog/57630430851d31e02a43ee14/basics-of-python-(for-arcgis-10)/)
+* Penn State free web course [GIS Programming and Automation](https://www.e-education.psu.edu/geog485/node/104)
 
 #### Videos:
 
-Look for videos at Esri Video web page and search for `Python` and sort by most recent. An example of [URL](http://www.esri.com/videos/search?q=python#?sortby=recent&channels=esri,Events,ArcGIS,Industries,ArcGIS,esri);
+Look for videos at Esri Video web page and search for `Python` and sort by most recent. An example of [URL](http://www.esri.com/videos/search?q=python#?sortby=recent&channels=esri,Events,ArcGIS,Industries,ArcGIS,esri).
 
-* Esri video [Working with Feature Data Using ArcPy](http://www.esri.com/videos/watch?videoid=3448&isLegacy=true&title=working-with-feature-data-using-arcpy);
-* Esri video [ArcMap and Python: Closing the VBA Gap](http://www.esri.com/videos/watch?videoid=1229&isLegacy=true&title=arcmap-and-python-closing-the-vba-gap);
-* Esri video [Python: Getting Started 2014](http://www.esri.com/videos/watch?videoid=3879&channelid=LegacyVideo&isLegacy=true&title=python:-getting-started);
-* [Python: Developing Geoprocessing Tools](http://www.esri.com/videos/watch?videoid=4304&channelid=LegacyVideo&isLegacy=true&title=python:-developing-geoprocessing-tools);
-* Esri video [Python: Getting Started 2013](http://www.esri.com/videos/watch?videoid=2622&channelid=LegacyVideo&isLegacy=true&title=python---getting-started);
+* Esri video [Working with Feature Data Using ArcPy](http://www.esri.com/videos/watch?videoid=3448&isLegacy=true&title=working-with-feature-data-using-arcpy)
+* Esri video [ArcMap and Python: Closing the VBA Gap](http://www.esri.com/videos/watch?videoid=1229&isLegacy=true&title=arcmap-and-python-closing-the-vba-gap)
+* Esri video [Python: Getting Started 2014](http://www.esri.com/videos/watch?videoid=3879&channelid=LegacyVideo&isLegacy=true&title=python:-getting-started)
+* [Python: Developing Geoprocessing Tools](http://www.esri.com/videos/watch?videoid=4304&channelid=LegacyVideo&isLegacy=true&title=python:-developing-geoprocessing-tools)
+* Esri video [Python: Getting Started 2013](http://www.esri.com/videos/watch?videoid=2622&channelid=LegacyVideo&isLegacy=true&title=python---getting-started)
 
 #### Tutorials / web pages:
 * [arcpy tutorials](https://boxshapedworld.wordpress.com/tutorials/)
