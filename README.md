@@ -85,7 +85,8 @@ This section contains the examples of tasks that you might need to write at some
 * Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool;
 * Esri blog [How to Debug Python Toolboxes in 3 Easy Steps](https://blogs.esri.com/esri/arcgis/2012/12/14/how-to-debug-python-toolboxes-in-3-easy-steps/);
 * Esri blog [Field mapping and Python scripting](https://blogs.esri.com/esri/arcgis/2012/08/30/field-mapping-and-python-scripting/);
-
+* Esri [ArcPy team blog](https://arcpy.wordpress.com/);
+* [Python and GIS blog](https://pythongisandstuff.wordpress.com/);
 
 ## Skills
 ### GIS specific
