@@ -161,6 +161,12 @@ At this point, you should be familiar with:
  - Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
  - Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
 
+* Learn how to access ArcGIS Pro .NET libraries from Python:
+ - Learn the basics of C# or VB.NET
+ - Learn to use the [`pythonnet`](https://pypi.python.org/pypi/pythonnet/2.1.0) package
+ - Learn to build a class library to access its methods from Python using `clr`
+ - Learn how to build a console app that would embed Pro libraries in [Pro .NET SDK Help](https://github.com/Esri/arcgis-pro-sdk/wiki/proconcepts-CoreHost) 
+
 * Learn about other GIS packages. 
  - Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md)) 
  - Watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
