@@ -86,7 +86,7 @@ This section contains the examples of tasks that you might need to write at some
   * Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio
   * Check Esri blog post [Choosing the right Python Integrated Development Environment](https://blogs.esri.com/esri/arcgis/2013/06/24/choosing-the-right-python-integrated-development-environment/)
  
-* Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones).
+* Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones though).
   * Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code
  
 * Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight
@@ -98,7 +98,7 @@ This section contains the examples of tasks that you might need to write at some
 * Esri blog [Field mapping and Python scripting](https://blogs.esri.com/esri/arcgis/2012/08/30/field-mapping-and-python-scripting/)
 * Esri [ArcPy team blog](https://arcpy.wordpress.com/)
 * [Python and GIS blog](https://pythongisandstuff.wordpress.com/)
-* Convenience functions for arcpy in repo [arcapi](https://github.com/NERC-CEH/arcapi)
+* Convenience functions for `arcpy` in repo [arcapi](https://github.com/NERC-CEH/arcapi)
 * Sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
 * Learn how to use [pip](http://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows) for managing Python packages
 * Learn [`virtualenv`](https://virtualenv.pypa.io/en/stable/) for managing Python environments
@@ -110,10 +110,10 @@ This section contains the examples of tasks that you might need to write at some
 At this point, you should be able to:
 - automate map production using `arcpy.mapping` with data-driven pages
 - manage .pdf files (eg. re-ordering, merging, splitting) using `arcpy`
-- export ArcMap map documents to various file formats such as .png and .pdf
-- update text elements content in layout of ArcMap map document
+- export ArcMap map document layout to various file formats such as .png and .pdf
+- update text elements content in layout of an ArcMap map document
 - executing DBMS spatial functions from Python and using `arcpy.ArcSDESQLExecute()`
-- use `FieldInfo`, `FieldMap`, and `FieldMappings` classes from `arcpy` to manage data schema
+- use `FieldInfo`, `FieldMap`, and `FieldMappings` classes from `arcpy` to manage data schema changes
 - customize custom ArcGIS script tool behavior using `ToolValidator` class
 - start using Python toolboxes and Python add-ins in ArcGIS when it makes sense
 - debug `arcpy`-driven code with the help of geoprocessing messages
@@ -123,25 +123,25 @@ At this point, you should be able to:
 
 ### Python
 At this point, you should be familiar with:
-- installing Python packages using pip
+- installing Python packages using `pip`
 - Python 3 to be able to write code that will be ported later to ArcGIS Pro
 - Python PEP-8 style guide
 - `collections` module data structures such as `defaultdict`, `namedtuple`, `Counter`
 - list and dictionary comprehensions
 - set comprehensions and set theory operations
-- enumerating sequences using built-in `enumerate` function'
+- enumerating sequences using the built-in `enumerate` function
 - writing own functions and handling the arguments
 - lambda functions
 - convenience functions
 - accessing databases using Python
-- working with disk-based database SQLite from Python
+- working with disk-based databases such as `SQLite` from Python
 - using non-Latin characters in the source file and handling Unicode
 - Python exceptions and `try/except` block
 - Python `traceback` module
 - tuple unpacking with function calls
 - sending emails with Python
 - accessing ftp sites with Python
-- running Python files with the cmd and task scheduler
+- running Python files with the `cmd` and a task scheduler
 - zipping folders and files with Python and reading archive files
 - sending SMS using Python and `Twilio`
 
