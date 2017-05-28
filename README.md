@@ -189,32 +189,32 @@ At this point, you should be familiar with:
   * Learn how to combine [Python and R code](https://www.continuum.io/blog/developer/jupyter-and-conda-r) in the same Jupyter notebook
 
 * Learn about using Python for web development:
-  * learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with flask and only then move to Django
-  * learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through pdf [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
+  * Learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with `flask` and only then move to `django`
+  * Learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through .pdf slides [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
 
 * Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight 
 * Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data)
 * Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format)
-* Learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
+* Learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python bindings [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
 
 * Learn about numerical computing and data science:
-  * Install [`Anaconda`](https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) env
+  * Install [`Anaconda`](https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) environment
   * Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
   * Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
   * Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
 
 * Learn about managing and processing larger spatial datasets as performance will matter.
-  * learn profiling techniques to find out what code takes most time to execute
-  * learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
-  * learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
-  * Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
+  * Learn profiling techniques to find out what code takes most time to execute (`cProfile`)
+  * Learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
+  * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
+  * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
 
-* Start looking for doing certain things outside of ArcGIS such using `pandas`
-* Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values apart from the business logic (eg. using JSON or ConfigParser or init() )
-* Learn ArcGIS REST API
+* Start looking for doing certain things outside of ArcGIS using pure Python, for instance, using `pandas`
+* Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values separately from the business logic (eg. using `json`, `ConfigParser` or using OOP constructors)
+* Learn the ArcGIS REST API
   * Learn [`requests`](http://docs.python-requests.org/en/master/) module
   * ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
-  * Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organization
+  * Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organizations and ArcGIS Server resources
 
 ## Skills
 
@@ -228,22 +228,22 @@ At this point, you should be able to:
 - perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing)
 - plot geodata with `Matplotlib` (both vector and raster)
 - use `numpy` and `pandas` for manipulating spatial dataset attribute table
-- use `requests` and/or `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through ArcGIS REST API
+- use `requests` and/or `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through the ArcGIS REST API
 - call FME workbenches from Python
 - access readers and writers in FME with `fmeobjects`
 
 ### Python
 At this point, you should be familiar with:
-- building desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile features in a window)
-- contributing to open-source projects such as `arcrest` or `geopandas` reporting bugs or new functionality
-- creating new conda environments and installing various packages into specific environments
+- building desktop GUI applications using PyQt, PySide, or Kivy (eg. visualize a shapefile's features in an application window)
+- contributing to open-source projects such as `arcrest` or `geopandas` reporting bugs or pulling in new functionality
+- creating new `conda` environments and installing various packages into specific environments
 - refactoring wrapping the code into functions, modules, and packages
 - OOP basics and creating own classes
 
 ### Exercises
-This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for ArcGIS.
+This section contains the examples of tasks that you might need to write at some point of time. Implementing these tasks in Python code would be a good sign that you have mastered the advanced concepts of Python for GIS.
 - hide/show map grid of data frame in a map layout before exporting the map in a map document using `arcpy` package and ArcObjects
 - update label's text of a scale bar in a map layout using pure ArcObjects
 - generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile using `networkx`
 - find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package
-- create a new csv file from an existing one by filtering certain rows using `pandas`
+- create a new .csv file from an existing one by filtering certain rows using `pandas`
