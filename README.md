@@ -157,7 +157,7 @@ At this point, you should be familiar with:
   * GIS.SE [Guidelines for using ArcObjects from Python](http://gis.stackexchange.com/questions/129456/guidelines-for-using-arcobjects-from-python)
   * Esri video [Extending Python Using C++ and ArcObjects](http://www.esri.com/videos/watch?videoid=1242&isLegacy=true&title=extending-python-using-c_plus__plus_-and-arcobjects)
   * Esri [recorded live-training seminar on ArcObjects](https://www.youtube.com/watch?v=AtwD02wyP3A)
-  * Esri Help page [Learning ArcObjects] (http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Learning_ArcObjects/0001000000p1000000/) will help you determine which ArcObjects will provide the functionality required by your customization
+  * Esri Help page [Learning ArcObjects](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Learning_ArcObjects/0001000000p1000000/) will help you determine which ArcObjects will provide the functionality required by your customization
   * Esri Help page [Reading OMDs](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/#/Reading_OMDs/000100000306000000/) provides a description of the diagram notation used on the ArcObjects object model diagrams (OMDs)
   * Blog post [Accessing ArcObjects in Python](https://tereshenkov.wordpress.com/2016/01/16/accessing-arcobjects-in-python/)
   * [GitHub repo](https://github.com/hellocomrade/ArcObject) with tutorial on ArcObjects
