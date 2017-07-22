@@ -184,6 +184,8 @@ At this point, you should be familiar with:
 
 ### Python
 
+* Learn how Python is used in the enterprise watching the [Enterprise Software with Python](https://player.oreilly.com/videos/9781491943755) O'reilly video course
+
 * Learn [IPython](https://ipython.org/) and the concept of reproducible research:
   * Learn how to use [Jupyter notebook](http://jupyter.org/)
   * Learn how to combine [Python and R code](https://www.continuum.io/blog/developer/jupyter-and-conda-r) in the same Jupyter notebook
