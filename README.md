@@ -201,6 +201,7 @@ At this point, you should be familiar with:
 
 * Learn about numerical computing and data science:
   * Install [`Anaconda`](https://www.continuum.io/downloads) and learn about `conda`. This is helpful as [Python in ArcGIS Pro](https://geonet.esri.com/docs/DOC-8359) is implemented using a [conda](http://conda.pydata.org/docs/test-drive.html) environment
+  * Install [Enthought Canopy](https://www.enthought.com/products/canopy/) scientific Python distribution and learn what tools it has
   * Learn numerics, science, and data with Python with [scipy-lectures](http://www.scipy-lectures.org/)
   * Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
   * Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
