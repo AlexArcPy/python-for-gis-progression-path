@@ -7,7 +7,7 @@ This is an attempt to provide a structured collection of resources that could he
 
 The resources will include books, web pages and blog posts, online courses, videos, Q/A from GIS.SE, links to code snippets, and some bedtime readings. 
 
-_The resources will focus mostly on learning about Python for users of Esri software though many topics will apply for open-source GIS professionals as well._
+_The resources will be applicable both for Esri software users as well as open-source GIS professionals._
 
 ---
 
@@ -18,8 +18,10 @@ You should be able to write short simple scripts in pure Python with no connecti
 ## Resources
 If you don't want to learn Python this way and would rather like to catch up learning how Python can be used for GIS:
 #### Books
-* [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users. Going through this book _might_ be sufficient to learn everything you might ever need
+* [Python Scripting for ArcGIS](https://www.amazon.com/Python-Scripting-ArcGIS-Paul-Zandbergen/dp/1589483715) for Esri users
 * [Geoprocessing with Python](https://www.manning.com/books/geoprocessing-with-python) for open-source users
+
+Going through these books _might_ be sufficient to learn everything you might ever need if you are an Esri / open-source users, respectively.
 
 #### Courses:
 * Esri instructor-led course [Introduction to Geoprocessing Scripts Using Python](https://www.esri.com/training/catalog/57630435851d31e02a43f054/introduction-to-geoprocessing-scripts-using-python/)
@@ -28,7 +30,6 @@ If you don't want to learn Python this way and would rather like to catch up lea
 * Penn State free web course [GIS Programming and Automation](https://www.e-education.psu.edu/geog485/node/104)
 
 #### Videos:
-
 Look for videos at Esri Video web page and search for `Python` and sort by most recent. An example of [URL](http://www.esri.com/videos/search?q=python#?sortby=recent&channels=esri,Events,ArcGIS,Industries,ArcGIS,esri).
 
 * Esri video [Working with Feature Data Using ArcPy](http://www.esri.com/videos/watch?videoid=3448&isLegacy=true&title=working-with-feature-data-using-arcpy)
@@ -52,7 +53,7 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 At this point, you should be able to:
 - write some simple scripts either using `arcpy` site-package or `ogr/gdal` libraries
 - report information about your GIS assets (data format, geometry type, data schema, spatial reference)
-- write code for calling ArcGIS GP tools from Python code and inspect the `Result` object returned
+- write code for calling ArcGIS geoprocessing tools from Python code and inspect the `Result` object returned
 - perform an operation on multiple datasets in batch mode using `arcpy` listing functions
 - read and update attributes & geometry of features using `arcpy.da` cursors
 - create and operate `arcpy.Geometry()` objects (accessing their properties and methods)
@@ -85,11 +86,13 @@ This section contains the examples of tasks that you might need to write at some
   * SO question [What IDE to use for Python?](http://stackoverflow.com/questions/81584/what-ide-to-use-for-python)
   * Check PyCharm, WingIDE, Eclipse PyDev, Visual Studio Code, Python Tools for Visual Studio
   * Check Esri blog post [Choosing the right Python Integrated Development Environment](https://blogs.esri.com/esri/arcgis/2013/06/24/choosing-the-right-python-integrated-development-environment/)
- 
-* Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones though).
+
+Now, for getting started with Python development, [Visual Studio Code with Python](https://code.visualstudio.com/docs/languages/python) extension(s) is arguably the best choice. It's completely free, you can install it on any of your physical or virtual machines and it has great support for Python development.
+
+* Learn about [VCS](https://en.wikipedia.org/wiki/Version_control) such as `Git` for managing the source code. [BitBucket](https://bitbucket.org/product) by Atlassian and [GitLab](https://about.gitlab.com/gitlab-com/) provides free private repositories and [GitHub](https://github.com/) provides free public repositories (you need to pay to create private ones).
   * Find out whether there is a VCS solution deployed in-house within your organization, such as [Microsoft TFS](https://www.visualstudio.com/tfs/), which you could use to check in the code
  
-* Watch [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) on Pluralsight
+* Watch Python courses on training sites such as Pluralsight [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) or Enthought [Python Foundation Series](https://www.enthought.com/services/training/python-training-on-demand/)
 * Watch Esri video [Python: Useful Libraries for the GIS Professional](http://www.esri.com/videos/watch?videoid=2938&isLegacy=true&title=python-useful-libraries-for-the-gis-professional)
 
 #### Tutorials / web pages
@@ -168,7 +171,7 @@ At this point, you should be familiar with:
   * Learn to build a class library to access its methods from Python using `clr`
   * Learn how to build a console app that would embed Pro libraries in [Pro .NET SDK Help](https://github.com/Esri/arcgis-pro-sdk/wiki/proconcepts-CoreHost) 
 
-* Learn about other GIS packages. 
+* Learn about other GIS packages:
   * Go through a comprehensive list of [Essential Python Geospatial Libraries](http://carsonfarmer.com/2013/07/essential-python-geo-libraries/) (also available on [this GitHub page](https://github.com/SpatialPython/spatial_python/blob/master/packages.md)) 
   * Watch the series of recorded workshops on using open source GIS packages: [Geospatial data in Python: Database, Desktop, and the Web](http://pyvideo.org/speaker/carson-farmer.html)
  
@@ -206,18 +209,32 @@ At this point, you should be familiar with:
   * Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
   * Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
 
-* Learn about managing and processing larger spatial datasets as performance will matter.
+* Learn about creating and parsing HTML:
+  * Parse and construct HTML pages with Python using [`BeautifulSoup`](https://launchpad.net/beautifulsoup). Having this skill would be handy when a web page should be searched for some information and loaded into a GIS dataset or when you are building HTML reports
+  * Learn how the [registrant](https://github.com/AlexArcPy/registrant) package reports information about the Esri geodatabase contents
+  * Learn about web scraping using [`Scrapy`](https://scrapy.org/)
+
+* Learn about managing and processing larger spatial datasets as performance will matter:
   * Learn profiling techniques to find out what code takes most time to execute (`cProfile`)
   * Learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
   * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
   * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
 
-* Start looking for doing certain things outside of ArcGIS using pure Python, for instance, using `pandas`
+* Learn about source code testing:
+  * Learn `unittest` built-in module and more advanced [`pytest`](https://docs.pytest.org/en/latest/) framework
+  * Learn [`coverage.py`](https://coverage.readthedocs.io/en/coverage-4.4.1/) module to create code coverage reports
+
+* Start looking for doing certain things outside of GIS applications using pure Python, for instance, using `pandas`
+
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values separately from the business logic (eg. using `json`, `ConfigParser` or using OOP constructors)
-* Learn the ArcGIS REST API
+
+* Learn the ArcGIS REST API:
   * Learn [`requests`](http://docs.python-requests.org/en/master/) module
   * ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
   * Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organizations and ArcGIS Server resources
+
+* Learn about extending Python with C or C++:
+  * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (.pyd compiled file that can be imported as a regular module into Python module)
 
 ## Skills
 
