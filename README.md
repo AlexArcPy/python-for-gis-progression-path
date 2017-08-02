@@ -211,7 +211,7 @@ At this point, you should be familiar with:
 
 * Learn about creating and parsing HTML:
   * Parse and construct HTML pages with Python using [`BeautifulSoup`](https://launchpad.net/beautifulsoup). Having this skill would be handy when a web page should be searched for some information and loaded into a GIS dataset or when you are building HTML reports
-  * Learn how the [registrant](https://github.com/AlexArcPy/registrant) package reports information about the Esri geodatabase contents
+  * Learn how the [`registrant`](https://github.com/AlexArcPy/registrant) package reports information about the Esri geodatabase contents
   * Learn about web scraping using [`Scrapy`](https://scrapy.org/)
 
 * Learn about managing and processing larger spatial datasets as performance will matter:
