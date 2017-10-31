@@ -95,6 +95,8 @@ Now, for getting started with Python development, [Visual Studio Code with Pytho
 * Watch Python courses on training sites such as Pluralsight [Python Fundamentals](https://app.pluralsight.com/library/courses/python-fundamentals/table-of-contents) or Enthought [Python Foundation Series](https://www.enthought.com/services/training/python-training-on-demand/)
 * Watch Esri video [Python: Useful Libraries for the GIS Professional](http://www.esri.com/videos/watch?videoid=2938&isLegacy=true&title=python-useful-libraries-for-the-gis-professional)
 
+* Learn about [type hinting in Python](https://docs.python.org/3/library/typing.html). There is an [excellent blog post on how type hints are used in PyCharm](https://www.jetbrains.com/help/pycharm/type-hinting-in-pycharm.html) and a [help page from Wing IDE people](https://wingware.com/doc/edit/helping-wing-analyze-code). Find out  whether your Python IDE supports static code analysis and start using the type hints (with support both for Python 2.7 and 3.5+).
+
 #### Tutorials / web pages
 * Esri blog [Generating a choice list from a field](https://blogs.esri.com/esri/arcgis/2011/08/25/generating-a-choice-list-from-a-field/) for a custom script tool
 * Esri blog [How to Debug Python Toolboxes in 3 Easy Steps](https://blogs.esri.com/esri/arcgis/2012/12/14/how-to-debug-python-toolboxes-in-3-easy-steps/)
@@ -209,6 +211,9 @@ At this point, you should be familiar with:
   * Learn what [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/spatial.html) can do for your GIS work
   * Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
 
+* Learn about using machine learning with Python:
+  * Start using [scikit-learn](http://scikit-learn.org/) for various GIS-related operations such as data classification and regression as well as [scikit-image](http://scikit-image.org/) for image processing (e.g., satellite imagery recognition).
+
 * Learn about creating and parsing HTML:
   * Parse and construct HTML pages with Python using [`BeautifulSoup`](https://launchpad.net/beautifulsoup). Having this skill would be handy when a web page should be searched for some information and loaded into a GIS dataset or when you are building HTML reports
   * Learn how the [`registrant`](https://github.com/AlexArcPy/registrant) package reports information about the Esri geodatabase contents
@@ -267,3 +272,5 @@ This section contains the examples of tasks that you might need to write at some
 - generate a service area (drive-time) polygon for an arbitrary point on a street network stored as a shapefile using `networkx`
 - find out the fastest spatial join - ArcGIS Spatial Join GP tool, `rtree` in PostGIS, SQL Server `STContains`, or `shapely` Python package
 - create a new .csv file from an existing one by filtering certain rows using `pandas`
+- classify point dataset features into clusters using `scikit-learn` to mimic some of the ArcGIS Spatial Statistics tools
+- write a program that will calculate the area of a lake automatically recognized from a satellite imagery
