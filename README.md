@@ -263,6 +263,7 @@ At this point, you should be familiar with:
 
 * Learn about extending Python with C or C++:
   * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (.pyd compiled file that can be imported as a regular module into Python module)
+  * Go through the [Interfacing with other languages](https://training.enthought.com/course/INTERFACING) course from Enthought to start building Python native modules
 
 ## Skills
 
