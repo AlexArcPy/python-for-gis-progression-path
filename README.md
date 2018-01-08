@@ -207,6 +207,11 @@ At this point, you should be familiar with:
   * Go through examples of PyQt applications on the [Riverbank GitHub page](https://github.com/baoboa/pyqt5/tree/master/examples)
   * Explore the workflow of [building a custom QGIS plugin with PyQt](https://docs.qgis.org/2.0/en/docs/pyqgis_developer_cookbook/plugins.html)
 
+* Learn about [computational geometry](https://en.wikipedia.org/wiki/Computational_geometry) and find out how it can help you in your work. Maybe you could use a tool that is not present in your desktop GIS or you are looking for something that performs faster. There are two main computational geometry libraries and both were written in C:
+  * [qhull](http://www.qhull.org/). Its Python wrapper is accessed via [`scipy.spatial`](https://docs.scipy.org/doc/scipy/reference/tutorial/spatial.html) module, an exceptional tool for anyone who deals with geometrical data.
+  * [CGAL](https://www.cgal.org/index.html). Its [Python bindings](https://pypi.python.org/pypi/cgal-bindings) are generated with SWIG. The CGAL is somewhat difficult to install and compile, but does provide much richer functionality.
+  * Watch [Computational Geometry in Python - PyCon 2016](https://www.youtube.com/watch?v=nb3GRgtjlTw) and [Python Powered Computational Geometry](http://pyvideo.org/pycon-au-2012/python-powered-computational-geometry.html) to learn more about qhull and CGAL, respectively.
+
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
 * [Python and GIS blog](https://pymorton.wordpress.com/)
 * Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt)
