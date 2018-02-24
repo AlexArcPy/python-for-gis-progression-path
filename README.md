@@ -51,7 +51,7 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 
 ### Collections of resources
 
-* Esri blog [Seven easy ways to start learning Python and ArcPy](https://blogs.esri.com/esri/supportcenter/2014/03/26/8-easy-ways-learning-python-arcpy/)
+* Esri blog [Seven easy ways to start learning Python and ArcPy](https://community.esri.com/groups/technical-support/blog/2014/03/26/7-easy-ways-learning-python-arcpy)
 * GIS.SE [What are some resources for learning ArcPy?](http://gis.stackexchange.com/a/53826/14435)
 * [Python for GIS tutorials](http://courses.washington.edu/geog465/Programming_Resources.html)
 
