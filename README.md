@@ -113,6 +113,7 @@ Now, for getting started with Python development, [Visual Studio Code with Pytho
 * Watch Esri video [Python: Useful Libraries for the GIS Professional](http://www.esri.com/videos/watch?videoid=2938&isLegacy=true&title=python-useful-libraries-for-the-gis-professional)
 
 * Learn about [type hinting in Python](https://docs.python.org/3/library/typing.html). There is an [excellent blog post on how type hints are used in PyCharm](https://www.jetbrains.com/help/pycharm/type-hinting-in-pycharm.html) and a [help page from Wing IDE people](https://wingware.com/doc/edit/helping-wing-analyze-code). Find out  whether your Python IDE supports static code analysis and start using the type hints (with support both for Python 2.7 and 3.5+).
+  * Learn about [MyPy static type checker] and support for type hints with the [`typing`](https://docs.python.org/3/library/typing.html) module in Python 3.6
 
 ### Tutorials / web pages
 
@@ -238,6 +239,7 @@ At this point, you should be familiar with:
 * Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight
 * Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data)
 * Learn about [`regex`](https://docs.python.org/2/howto/regex.html) Python package to work with regular expressions in Python (eg. finding addresses in a specific format)
+* Learn about [`difflib`](https://docs.python.org/3.5/library/difflib.html) and [`Levenshtein C extension`](https://rawgit.com/ztane/python-Levenshtein/master/docs/Levenshtein.html) to do fuzzy string matching (eg. finding the closest address string in the registry for an input address)
 * Learn [`Selenium`](https://github.com/SeleniumHQ/Selenium) Python package to be able to automate web app testing. Read the docs for Python bindings [here](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example)
 
 * Learn about numerical computing and data science:
@@ -261,9 +263,13 @@ At this point, you should be familiar with:
   * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
   * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
 
-* Learn about source code testing:
+* Learn about source code testing, linting, and refactoring:
   * Learn `unittest` built-in module and more advanced [`pytest`](https://docs.pytest.org/en/latest/) framework
   * Learn [`coverage.py`](https://coverage.readthedocs.io/en/coverage-4.4.1/) module to create code coverage reports
+  * Learn [`Hypothesis`](https://hypothesis.readthedocs.io/en/latest/) for writing more powerful unit tests
+  * Learn Python linters such as `pylint` and `pyflakes8` to keep the code tidy
+  * Learn Python formatters such `yapf` and `autopep8` to automatically reformat the source code to conform to a style
+  * Learn [SonarPython](https://rules.sonarsource.com/python) static code analyzer to find code smells and refactoring options
 
 * Start looking for doing certain things outside of GIS applications using pure Python, for instance, using `pandas`
 
