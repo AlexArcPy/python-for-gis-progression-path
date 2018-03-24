@@ -48,11 +48,13 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 
 * [arcpy tutorials](https://boxshapedworld.wordpress.com/tutorials/)
 * Esri Blog post [Scheduling a Python script or model to run at a prescribed time](https://blogs.esri.com/esri/arcgis/2013/07/30/scheduling-a-scrip/)
+* [PyQGIS Developer Cookbook](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/)
 
 ### Collections of resources
 
 * Esri blog [Seven easy ways to start learning Python and ArcPy](https://community.esri.com/groups/technical-support/blog/2014/03/26/7-easy-ways-learning-python-arcpy)
 * GIS.SE [What are some resources for learning ArcPy?](http://gis.stackexchange.com/a/53826/14435)
+* GIS.SE [Learning resources for PyQGIS?](https://gis.stackexchange.com/questions/250035/learning-resources-for-pyqgis)
 * [Python for GIS tutorials](http://courses.washington.edu/geog465/Programming_Resources.html)
 
 ## Skills
@@ -61,7 +63,7 @@ Look for videos at Esri Video web page and search for `Python` and sort by most 
 
 At this point, you should be able to:
 
-* write some simple scripts either using `arcpy` site-package or `ogr/gdal` libraries
+* write some simple scripts either using `arcpy` site-package or `ogr/gdal/pyqgis` libraries
 * report information about your GIS assets (data format, geometry type, data schema, spatial reference)
 * write code for calling ArcGIS geoprocessing tools from Python code and inspect the `Result` object returned
 * perform an operation on multiple datasets in batch mode using `arcpy` listing functions
@@ -215,6 +217,11 @@ At this point, you should be familiar with:
 * Esri blog [Accessing Multidimensional Scientific Data using Python](https://blogs.esri.com/esri/arcgis/2015/06/10/accessing-multidimensional-scientific-data-using-python/)
 * [Python and GIS blog](https://pymorton.wordpress.com/)
 * Convert ArcGIS script toolbox (.tbx) to Python toolbox (.pyt) with [tbxtopyt](https://github.com/jasonbot/tbxtopyt)
+
+* Learn about using Python with [FME Desktop](https://www.safe.com/fme/fme-desktop/):
+  * Find out [how to run an FME workbench from Python](https://knowledge.safe.com/articles/1158/run-an-fme-workspace-from-python-using-fmeworkspac.html)
+  * Find out how to call Python code from within an FME workbench using [PythonCaller transformer](https://docs.safe.com/fme/2017.1/html/FME_Desktop_Documentation/FME_Transformers/Transformers/pythoncaller.htm)
+  * Find out how to process data without using any FME workbench with the help of [FME Objects Python API](https://docs.safe.com/fme/html/FME_Objects_Python_API/index.html)
 
 ### Python
 
