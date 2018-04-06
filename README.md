@@ -113,7 +113,7 @@ Now, for getting started with Python development, [Visual Studio Code with Pytho
 * Watch Esri video [Python: Useful Libraries for the GIS Professional](http://www.esri.com/videos/watch?videoid=2938&isLegacy=true&title=python-useful-libraries-for-the-gis-professional)
 
 * Learn about [type hinting in Python](https://docs.python.org/3/library/typing.html). There is an [excellent blog post on how type hints are used in PyCharm](https://www.jetbrains.com/help/pycharm/type-hinting-in-pycharm.html) and a [help page from Wing IDE people](https://wingware.com/doc/edit/helping-wing-analyze-code). Find out  whether your Python IDE supports static code analysis and start using the type hints (with support both for Python 2.7 and 3.5+).
-  * Learn about [MyPy static type checker] and support for type hints with the [`typing`](https://docs.python.org/3/library/typing.html) module in Python 3.6
+  * Learn about [MyPy static type checker](http://mypy-lang.org/) and support for type hints with the [`typing`](https://docs.python.org/3/library/typing.html) module in Python 3.6
 
 ### Tutorials / web pages
 
@@ -234,7 +234,7 @@ At this point, you should be familiar with:
 
 * Learn about using Python for web development:
   * Learn [`flask`](http://flask.pocoo.org/) and [`django`](https://www.djangoproject.com/). Start with `flask` and only then move to `django`
-  * Learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through .pdf slides [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
+  * Learn [`geodjango`](https://docs.djangoproject.com/en/1.10/ref/contrib/gis/) to serve spatial datasets on the web. Read through slides [ArcGIS JavaScript Plus Django Equals Dynamic Web App](http://proceedings.esri.com/library/userconf/proc15/papers/794_139.pdf)
 
 * Watch [Python – Beyond the Basics](https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents) on Pluralsight
 * Learn about [`nlpk`](http://www.nltk.org/) Python package to work with human language data (eg. parsing address data)
@@ -250,7 +250,10 @@ At this point, you should be familiar with:
   * Read [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do) and [Python for Computational Science and Engineering](https://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (free book)
 
 * Learn about using machine learning with Python:
-  * Start using [scikit-learn](http://scikit-learn.org/) for various GIS-related operations such as data classification and regression as well as [scikit-image](http://scikit-image.org/) for image processing (e.g., satellite imagery recognition).
+  * Start using [scikit-learn](http://scikit-learn.org/) for various GIS-related operations such as data classification and regression as well as [scikit-image](http://scikit-image.org/) for image processing (e.g., satellite imagery recognition)
+
+* Learn about using computer vision (CV) with Python:
+  * Learn how to use the [`Pillow`](https://pillow.readthedocs.io/en/5.1.x/), [`OpenCV`](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html), and [`SimpleCV`](http://simplecv.org/) libraries. Start with `SimpleCV` first
 
 * Learn about creating and parsing HTML:
   * Parse and construct HTML pages with Python using [`BeautifulSoup`](https://launchpad.net/beautifulsoup). Having this skill would be handy when a web page should be searched for some information and loaded into a GIS dataset or when you are building HTML reports
@@ -301,6 +304,8 @@ At this point, you should be able to:
 * use `requests` and/or `arcrest` package to access ArcGIS Server site, ArcGIS Online / Portal organizations through the ArcGIS REST API
 * call FME workbenches from Python
 * access readers and writers in FME with `fmeobjects`
+* read, modify, and write a georeferenced image
+* generate useful information about a point dataset (most isolated points, a pair of two furthest points, etc)
 
 ### Python
 
