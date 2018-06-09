@@ -224,6 +224,19 @@ At this point, you should be familiar with:
   * Find out how to call Python code from within an FME workbench using [PythonCaller transformer](https://docs.safe.com/fme/2017.1/html/FME_Desktop_Documentation/FME_Transformers/Transformers/pythoncaller.htm)
   * Find out how to process data without using any FME workbench with the help of [FME Objects Python API](https://docs.safe.com/fme/html/FME_Objects_Python_API/index.html)
 
+* Learn the ArcGIS REST API:
+  * Learn [`requests`](http://docs.python-requests.org/en/master/) module
+  * ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
+  * Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organizations and ArcGIS Server resources
+
+* Learn about managing and processing larger spatial datasets as performance will matter:
+  * Learn profiling techniques to find out what code takes most time to execute (`cProfile`)
+  * Learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
+  * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
+  * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
+  * Learn about [`PySpark`](https://spark.apache.org/docs/2.3.0/api/python/pyspark.html) that will let you use Spark in Python as well as [various geospatial libraries](https://gist.github.com/4rzael/bbd543af0cb2ee087771f42c5aefdad7) that will let you do geospatial analysis using Spark: [`magellan`](https://github.com/harsha2010/magellan), [`spatialspark`](https://github.com/syoummer/SpatialSpark), and [`GeoSpark`](https://github.com/DataSystemsLab/GeoSpark/)
+  * Watch a video showcasing use of Spark for large data analysis: [Large Scale Geospatial Analytics with Python, Spark, and Impala](https://youtu.be/L_uJvLKHgEs)
+
 ### Python
 
 * Learn how Python is used in the enterprise watching the [Enterprise Software with Python](https://player.oreilly.com/videos/9781491943755) O'reilly video course
@@ -260,12 +273,6 @@ At this point, you should be familiar with:
   * Learn how the [`registrant`](https://github.com/AlexArcPy/registrant) package reports information about the Esri geodatabase contents
   * Learn about web scraping using [`Scrapy`](https://scrapy.org/)
 
-* Learn about managing and processing larger spatial datasets as performance will matter:
-  * Learn profiling techniques to find out what code takes most time to execute (`cProfile`)
-  * Learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
-  * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
-  * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
-
 * Learn about source code testing, linting, and refactoring:
   * Learn `unittest` built-in module and more advanced [`pytest`](https://docs.pytest.org/en/latest/) framework
   * Learn [`coverage.py`](https://coverage.readthedocs.io/en/coverage-4.4.1/) module to create code coverage reports
@@ -273,19 +280,16 @@ At this point, you should be familiar with:
   * Learn Python linters such as `pylint` and `pyflakes8` to keep the code tidy
   * Learn Python formatters such `yapf` and `autopep8` to automatically reformat the source code to conform to a style
   * Learn [SonarPython](https://rules.sonarsource.com/python) static code analyzer to find code smells and refactoring options
+  * Learn about Python interface files ([PEP-484](https://www.python.org/dev/peps/pep-0484/)) and how to use them to [help your Python IDE to do static code analysis](https://www.jetbrains.com/help/pycharm/type-hinting-in-product.html#pep484) and provide better intellisense
 
 * Start looking for doing certain things outside of GIS applications using pure Python, for instance, using `pandas`
 
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values separately from the business logic (eg. using `json`, `ConfigParser` or using OOP constructors)
 
-* Learn the ArcGIS REST API:
-  * Learn [`requests`](http://docs.python-requests.org/en/master/) module
-  * ArcGIS toolbox [ArcGIS Server Administration Toolkit - 10.1+](http://www.arcgis.com/home/item.html?id=12dde73e0e784e47818162b4d41ee340)
-  * Learn [ArcGIS Python API](https://developers.arcgis.com/python/) to manage ArcGIS Online / Portal organizations and ArcGIS Server resources
-
 * Learn about extending Python with C or C++:
-  * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (.pyd compiled file that can be imported as a regular module into Python module)
+  * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (`.py`d compiled file that can be imported as a regular module into Python module)
   * Go through the [Interfacing with other languages](https://training.enthought.com/course/INTERFACING) course from Enthought to start building Python native modules
+  * Learn and compare various [alternatives for wrapping C++ code for Python](http://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html) such as using [`Boost`](https://www.boost.org/), [`SWIG`](http://www.swig.org/), native [Python C API](https://docs.python.org/2/c-api/index.html), and [`pybind11`](https://github.com/pybind/pybind11). `pybind11` is the most user-friendly one.
 
 ## Skills
 
@@ -316,6 +320,7 @@ At this point, you should be familiar with:
 * creating new `conda` environments and installing various packages into specific environments
 * refactoring wrapping the code into functions, modules, and packages
 * OOP basics and creating own classes
+* compile a simple Python extension module (`.pyd`) and write a `.pyi` interface file to provide the intellisense for your Python IDE
 
 ### Exercises
 
