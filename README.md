@@ -277,7 +277,10 @@ At this point, you should be familiar with:
   * Learn `unittest` built-in module and more advanced [`pytest`](https://docs.pytest.org/en/latest/) framework
   * Learn [`coverage.py`](https://coverage.readthedocs.io/en/coverage-4.4.1/) module to create code coverage reports
   * Learn [`Hypothesis`](https://hypothesis.readthedocs.io/en/latest/) for writing more powerful unit tests
-  * Learn Python linters such as `pylint` and `pyflakes8` to keep the code tidy
+  * Learn Python linters such as `pylint`, `flake8`, and `pyflakes8` to keep the code tidy.
+  * Learn about Python style guides such as [Google style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md). This will be particular useful when you start working in a team.
+  * Learn about most comprehensive Python linter [`wemake-python-styleguide`
+](https://github.com/wemake-services/wemake-python-styleguide). It is just a `flake8` plugin; however, it combines violations from a lot of other `flake8` plugins. 
   * Learn Python formatters such `yapf` and `autopep8` to automatically reformat the source code to conform to a style
   * Learn [SonarPython](https://rules.sonarsource.com/python) static code analyzer to find code smells and refactoring options
   * Learn about Python interface files ([PEP-484](https://www.python.org/dev/peps/pep-0484/)) and how to use them to [help your Python IDE to do static code analysis](https://www.jetbrains.com/help/pycharm/type-hinting-in-product.html#pep484) and provide better intellisense
@@ -287,7 +290,7 @@ At this point, you should be familiar with:
 * Learn best practices for organizing configuration and settings for a larger workflow where you need to keep the config values separately from the business logic (eg. using `json`, `ConfigParser` or using OOP constructors)
 
 * Learn about extending Python with C or C++:
-  * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (`.py`d compiled file that can be imported as a regular module into Python module)
+  * Learn how to [create a C++ extension for Python](https://docs.microsoft.com/en-us/visualstudio/python/cpp-and-python) (`.pyd` compiled file that can be imported as a regular module into Python module)
   * Go through the [Interfacing with other languages](https://training.enthought.com/course/INTERFACING) course from Enthought to start building Python native modules
   * Learn and compare various [alternatives for wrapping C++ code for Python](http://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html) such as using [`Boost`](https://www.boost.org/), [`SWIG`](http://www.swig.org/), native [Python C API](https://docs.python.org/2/c-api/index.html), and [`pybind11`](https://github.com/pybind/pybind11). `pybind11` is the most user-friendly one.
 
@@ -300,8 +303,9 @@ At this point, you should be able to:
 * execute ArcObjects code from Python using `comtypes` library
 * export the data from tables and feature classes into Excel with custom formatting using `xlsxwriter`
 * generate .pdf files from scratch that would contain map images, custom charts, and tables using `reportlab`
-* generate .pdf report files using ArcGIS report templates (.rlf) and `arcpy`
-* generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (.tee), and Make Graph GP tool
+* split, merge, crop, and transform `.pdf` documents using `pypdf2`
+* generate `.pdf` report files using ArcGIS report templates (`.rlf`) and `arcpy`
+* generate graphs using `arcpy.Graph`, `arcpy.GraphTemplate` with graph template files (`.tee`), and Make Graph GP tool
 * perform graph theory operations on linear datasets using `networkx` (eg. point-to-point routing)
 * plot geodata with `Matplotlib` (both vector and raster)
 * use `numpy` and `pandas` for manipulating spatial dataset attribute table
