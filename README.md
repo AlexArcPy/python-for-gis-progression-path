@@ -126,6 +126,7 @@ Now, for getting started with Python development, [Visual Studio Code with Pytho
 * Sample ArcGIS toolbox [SampleArcPyMappingScriptTools_10_v1](http://www.arcgis.com/home/item.html?id=18c19ec00acb4d568c27bc20a72bfdc8) for working with `arcpy.mapping` (20+ tools)
 * Learn how to use [pip](http://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows) for managing Python packages
 * Learn [`virtualenv`](https://virtualenv.pypa.io/en/stable/) for managing Python environments
+* Learn `tox` and `retox` to run your tests/programs on multiple Python installations (can be handy when building script tools to be used both in ArcGIS Desktop with Python 2.7 and ArcGIS Pro with Python 3.x or QGIS with Python 2.7 and QGIS with Python 3.x)
 * Learn [R-ArcGIS bridge](https://github.com/R-ArcGIS/r-bridge-install) to combine Python code and R code
 
 ## Skills
