@@ -235,8 +235,18 @@ At this point, you should be familiar with:
   * Learn benchmarking to compare execution time for functions that do the same thing using different tools (eg. looking for the fastest way to count points in polygons)
   * Learn how to use `multiprocessing` module with ArcGIS at Esri blog post [Multiprocessing with ArcGIS – Approaches and Considerations (Part 1)](https://blogs.esri.com/esri/arcgis/2012/09/26/distributed-processing-with-arcgis-part-1/)
   * Read Esri blog [Be successful overlaying large, complex datasets in Geoprocessing](https://blogs.esri.com/esri/arcgis/2012/06/15/be-successful-overlaying-large-complex-datasets-in-geoprocessing/)
+
+* Learn about using Python for Big Data management and analysis
+
   * Learn about [`PySpark`](https://spark.apache.org/docs/2.3.0/api/python/pyspark.html) that will let you use Spark in Python as well as [various geospatial libraries](https://gist.github.com/4rzael/bbd543af0cb2ee087771f42c5aefdad7) that will let you do geospatial analysis using Spark: [`magellan`](https://github.com/harsha2010/magellan), [`spatialspark`](https://github.com/syoummer/SpatialSpark), and [`GeoSpark`](https://github.com/DataSystemsLab/GeoSpark/)
   * Watch a video showcasing use of Spark for large data analysis: [Large Scale Geospatial Analytics with Python, Spark, and Impala](https://youtu.be/L_uJvLKHgEs)
+  * Read an article showcasing use of Hadoop and Presto for large data analysis at Uber: [Query the planet: Geospatial big data analytics at Uber](https://www.oreilly.com/ideas/query-the-planet-geospatial-big-data-analytics-at-uber)
+  * Learn about [Presto geospatial functions](https://prestodb.io/docs/current/functions/geospatial.html) and [Presto Python client](https://github.com/prestodb/presto-python-client)
+  * Learn about [Omnisci geospatial Map-d core](https://github.com/omnisci/mapd-core) and its [Python JayDeBeApi](https://www.omnisci.com/docs/latest/6_jaydebeapi.html)
+  * Learn about [Geomesa](https://www.geomesa.org/) and its [integration with the Spark Python API for accessing data in GeoMesa data stores](https://www.geomesa.org/documentation/user/spark/pyspark.html)
+  * Become familiar with [Esri Geometry API for Java](https://github.com/Esri/geometry-api-java) as it is used by many Java-based Big Data platforms that provide some kind of geospatial support
+
+
 
 ### Python
 
@@ -278,10 +288,10 @@ At this point, you should be familiar with:
   * Learn `unittest` built-in module and more advanced [`pytest`](https://docs.pytest.org/en/latest/) framework
   * Learn [`coverage.py`](https://coverage.readthedocs.io/en/coverage-4.4.1/) module to create code coverage reports
   * Learn [`Hypothesis`](https://hypothesis.readthedocs.io/en/latest/) for writing more powerful unit tests
-  * Learn Python linters such as `pylint`, `flake8`, and `pyflakes8` to keep the code tidy.
-  * Learn about Python style guides such as [Google style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md). This will be particular useful when you start working in a team.
+  * Learn Python linters such as `pylint`, `flake8`, and `pyflakes8` to keep the code tidy
+  * Learn about Python style guides such as [Google style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md). This will be particular useful when you start working in a team
   * Learn about most comprehensive Python linter [`wemake-python-styleguide`
-](https://github.com/wemake-services/wemake-python-styleguide). It is just a `flake8` plugin; however, it combines violations from a lot of other `flake8` plugins. 
+](https://github.com/wemake-services/wemake-python-styleguide). It is just a `flake8` plugin; however, it combines violations from a lot of other `flake8` plugins
   * Learn Python formatters such `yapf` and `autopep8` to automatically reformat the source code to conform to a style
   * Learn [SonarPython](https://rules.sonarsource.com/python) static code analyzer to find code smells and refactoring options
   * Learn about Python interface files ([PEP-484](https://www.python.org/dev/peps/pep-0484/)) and how to use them to [help your Python IDE to do static code analysis](https://www.jetbrains.com/help/pycharm/type-hinting-in-product.html#pep484) and provide better intellisense
