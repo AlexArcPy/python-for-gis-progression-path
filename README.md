@@ -82,6 +82,7 @@ At this point, you should be familiar with:
 * import of external Python modules and packages (eg. `import os`)
 * functions and how they work (eg. input arguments and `return` statement)
 * reading/writing text files using the `os` module
+* reading/writing `.csv` files using the `csv` module and `unicodecsv` module
 
 ### Exercises
 
