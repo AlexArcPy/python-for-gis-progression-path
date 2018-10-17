@@ -161,7 +161,7 @@ At this point, you should be able to:
 At this point, you should be familiar with:
 
 * installing Python packages using `pip`
-* PYTHONPATH environment variable and Python environment isolation
+* `PYTHONPATH` environment variable and concept of paths and [running Python programs from `cmd`](https://docs.python.org/2/using/cmdline.html)
 * Python 3 to be able to write code that will be ported later to ArcGIS Pro / QGIS 3.x
 * Python [PEP-8](https://www.python.org/dev/peps/pep-0008/) style guide
 * `collections` module data structures such as `defaultdict`, `namedtuple`, `Counter`
